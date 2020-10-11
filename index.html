@@ -5,11 +5,35 @@
   <meta charset="utf-8" />
   <title>Lab 2</title>
   <link rel="stylesheet" href="/styles.css">
+  <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 </head>
 
 <body>
+  <div class="everything">
+    <div id="header">
+      <h1 id = "weatherheader">Weather</h1>
 
-  <h1>Lab 2</h1>
+      <form>
+        <label id="prompt">Enter a U.S. city: </label>
+        <subform>
+          <input id="weatherInput" type="text"></input><br>
+          <input id="weatherSubmit" type="submit" value="Submit"></input>
+        <subform>
+      </form>
+    </div>
+
+    <div id="weatherResults">
+    </div>
+
+    <div id="forecastResults">
+	  </div>
+
+    <div class='git-folder'>
+      <a class='git' href="https://github.com/BYU-CS-260-Winter-2020/lab-2-weather-app-mitchwilson65" target="_blank">GitHub</a>
+    </div>
+  </div>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
   <script text="type/javascript" src="/script.js">

@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.everything {
+  background-color: #DFDDF8;
+  display: flex;
+  flex-direction: column;
+}
+
+#weatherheader {
+  font-family: "Perpetua", serif;
+  color: #0B037C;
+  font-size: 7em;
+  margin-top: 200px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#header {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#weatherInput {
+  height: 2em;
+  width: 500px;
+  font-family: "Perpetua", serif;
+  font-size: 4em;
+}
+
+#prompt {
+  font-size: 5em;
+  color: #0B037C;
+  font-family: "Perpetua", serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+subform {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#weatherSubmit {
+  font-size: 4em;
+  font-family: "Perpetua", serif;
+  background-color:  #B2ADF6;
+}
+
+.logo {
+  height: 55px;
+}
+
+#weatherResults {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: gray;
+  font-size: 60px;
+  font-family: "Perpetua", sans-serif;
+}
+
+h3 {
+  color: gray;
+  font-size: 45px;
+  font-family: "Helvetica", serif;
+}
+
+p {
+  color: #8F8F8F;
+  font-size: 35px;
+  font-family: "Helvetica", serif;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+#top-header {
+  font-size: 52px;
+}
+
+#forecastResults {
+  margin-top: 50px;
+  display: grid;
+}
+
+#forecastResults > h2 {
+  font-size: 48px;
+}
+
+#weatherIn {
+  font-size: 75px;
+}
+
+#divisor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#main-temp {
+  font-size: 42px;
+}
+
+.git-folder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 70px;
+}
+
+@media only screen and (max-width: 400px) {
+  .everything {
+    background-color: #DFDDF8;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+
+  #weatherheader {
+    font-size: 3em;
+  }
+
+  #weatherInput {
+    height: 2em;
+    width: 80%;
+    font-size: 2.5em;
+  }
+
+  #prompt {
+    font-size: 2.5em;
+  }
+
+  subform {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #weatherSubmit {
+    font-size: 2em;
+  }
+
+  #weatherResults {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    color: gray;
+    font-size: 30px;
+    font-family: "Perpetua", sans-serif;
+  }
+
+  h3 {
+    color: gray;
+    font-size: 25px;
+    font-family: "Helvetica", serif;
+  }
+
+  p {
+    color: #8F8F8F;
+    font-size: 27px;
+    font-family: "Helvetica", serif;
+  }
+
+  img {
+    height: 90px;
+    width: 90px;
+  }
+
+  #top-header {
+    font-size: 28px;
+  }
+
+  #forecastResults {
+    margin-top: 33px;
+    display: grid;
+  }
+
+  #forecastResults > h2 {
+    font-size: 33px;
+  }
+
+  #weatherIn {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  #divisor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  #main-temp {
+    font-size: 25px;
+  }
+
+  .git-folder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    text-align: center;
+  }
+
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 959px) {
+  #weatherheader {
+    margin-top: 200px;
+    font-size: 90px;
+  }
+
+  #prompt {
+    font-size: 50px;
+    color: #0B037C;
+    font-family: "Perpetua", serif;
+  }
+
+  #weatherInput {
+    height: 2em;
+    width: 500px;
+    font-family: "Perpetua", serif;
+    font-size: 20px;
+  }
+
+  #weatherSubmit {
+    font-size: 2em;
+    font-family: "Perpetua", serif;
+    background-color:  #B2ADF6;
+  }
+
+  .logo {
+    size: 40px;
+  }
+
+    #weatherIn {
+    font-size: 55px;
+  }
+
+  #weatherResults {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    color: gray;
+    font-size: 40px;
+    font-family: "Perpetua", sans-serif;
+  }
+
+  h3 {
+    color: gray;
+    font-size: 30px;
+    font-family: "Helvetica", serif;
+  }
+
+  p {
+    color: #8F8F8F;
+    font-size: 23px;
+    font-family: "Helvetica", serif;
+  }
+
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
+  #top-header {
+    font-size: 30px;
+  }
+
+  #main-temp {
+    font-size: 25px;
+  }
+
+  #sublogo {
+    height: 100px;
+    width: 100px;
+  }
+
+  #forecastResults {
+    margin-top: 10px;
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+  .git-folder {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .git-folder {
+    padding-top: 20px;
+  }
+
+  #weatherheader {
+    margin-top: 200px;
+    font-size: 90px;
+  }
+
+  #prompt {
+    font-size: 50px;
+    color: #0B037C;
+    font-family: "Perpetua", serif;
+  }
+
+  #weatherInput {
+    height: 2em;
+    width: 500px;
+    font-family: "Perpetua", serif;
+    font-size: 20px;
+  }
+
+  #weatherSubmit {
+    font-size: 2em;
+    font-family: "Perpetua", serif;
+    background-color:  #B2ADF6;
+  }
+
+  .logo {
+    size: 40px;
+  }
+
+    #weatherIn {
+    font-size: 55px;
+  }
+
+  #weatherResults {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    color: gray;
+    font-size: 40px;
+    font-family: "Perpetua", sans-serif;
+  }
+
+  h3 {
+    color: gray;
+    font-size: 30px;
+    font-family: "Helvetica", serif;
+  }
+
+  p {
+    color: #8F8F8F;
+    font-size: 23px;
+    font-family: "Helvetica", serif;
+  }
+
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
+  #top-header {
+    font-size: 30px;
+  }
+
+  #main-temp {
+    font-size: 25px;
+  }
+
+  #sublogo {
+    height: 100px;
+    width: 100px;
+  }
+
+  #forecastResults {
+    margin-top: 10px;
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+}
