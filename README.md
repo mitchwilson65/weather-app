@@ -1,7 +1,7 @@
 # Weather App
 
-In this assignment you will use JavaScript to build a weather app.  To
-get the weather, we'll use the [OpenWeatherMap
+Weather App built with the following API, following template for school
+project: [OpenWeatherMap
 API](https://openweathermap.org/api).
 
 ## Starting the lab
